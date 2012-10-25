@@ -10,3 +10,14 @@ Pasos para importar el proyecto
 3. Buscamos y seleccionamos el proyecto clonado 
 4. Finish
 5. Project/Clean y asegurarnos de que nuestro proyecto importado este seleccionado
+
+Estilos del CustomTheme
+=======================
+- TextView: @style/CustomTheme.Widget.TextView
+- Button: @style/CustomTheme.Widget.Button
+- ListView: @style/CustomTheme.Widget.ListView
+- EditText: @style/CustomTheme.Widget.EditText
+
+Estilos para Views específicos
+==============================
+- EditText numéricos: editTextNumber

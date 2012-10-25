@@ -13,6 +13,7 @@
         <item name="android:textViewStyle">@style/CustomTheme.Widget.TextView</item>
         <item name="android:buttonStyle">@style/CustomTheme.Widget.Button</item>
         <item name="android:listViewStyle">@style/CustomTheme.Widget.ListView</item>
+        <item name="android:editTextStyle">@style/CustomTheme.Widget.EditText</item>
         
     </style>
     
@@ -23,12 +24,12 @@
     </style>
 
     <style name="CustomTheme.TextAppearance.Small" parent="@android:style/TextAppearance.Small">
-        <item name="android:textColor">@color/green</item>
+        <item name="android:textColor">@color/blue</item>
         <item name="android:textSize">10sp</item>
     </style>
 
     <style name="CustomTheme.TextAppearance.Medium" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textColor">@color/blue</item>
+        <item name="android:textColor">@color/green</item>
     </style>
 
     <style name="CustomTheme.TextAppearance.Large" parent="@android:style/TextAppearance.Large">
@@ -53,6 +54,14 @@
     <style name="CustomTheme.Widget.ListView" parent="@android:style/Widget.ListView">
         <item name="android:divider">@color/green</item>
         <item name="android:dividerHeight">0.5dip</item>
+    </style>
+    
+    <style name="CustomTheme.Widget.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:ems">10</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/selector_edittext</item>
+        <item name="android:textCursorDrawable">@null</item>
     </style>
 
 </resources>

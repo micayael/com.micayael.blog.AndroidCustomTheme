@@ -1,5 +1,8 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="editTextNumber" parent="@style/CustomTheme.Widget.EditText">
+        <item name="android:inputType">number</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
 
 </resources>
