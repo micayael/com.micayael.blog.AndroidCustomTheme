@@ -17,6 +17,7 @@ Estilos del CustomTheme
 - Button: @style/CustomTheme.Widget.Button
 - ListView: @style/CustomTheme.Widget.ListView
 - EditText: @style/CustomTheme.Widget.EditText
+- ToggleButton: @style/CustomTheme.Widget.Button.Toggle
 
 Estilos para Views específicos
 ==============================
