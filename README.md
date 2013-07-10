@@ -22,3 +22,4 @@ Estilos del CustomTheme
 Estilos para Views específicos
 ==============================
 - EditText numéricos: editTextNumber
+- EditText desactivados: editTextDisabled
