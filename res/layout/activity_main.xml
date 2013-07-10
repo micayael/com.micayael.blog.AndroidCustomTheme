@@ -54,6 +54,19 @@
         android:text="123456"
         android:ems="10" />
 
+    <EditText
+        android:id="@+id/EditText3"
+        style="@style/editTextDisabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:enabled="false"
+        android:text="123456" >
+
+        <requestFocus />
+    </EditText>
+
     <ToggleButton
         android:id="@+id/toggleButton1"
         android:textOn="Si"

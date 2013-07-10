@@ -5,4 +5,9 @@
         <item name="android:textColor">@color/red</item>
     </style>
 
+    <style name="editTextDisabled" parent="@style/CustomTheme.Widget.EditText">
+        <item name="android:enabled">false</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
 </resources>
